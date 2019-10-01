@@ -1,0 +1,166 @@
+body {
+	font-family: Comic Sans MS;
+	font-size: 20;
+}
+
+.container {
+	max-width: 1261px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('../img/Component.png');
+	padding: 48px 0;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.1s ease;
+}
+
+.nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 164px;
+}
+
+.btn_act {
+	background: #F80012;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35), inset 3px 3px 3px rgba(255, 255, 255, 0.35);
+	border-radius: 40px;
+	font-size: 24px;
+	color: #fff;
+	width: 194px;
+	padding: 20px;
+	display: block;
+	text-align: center;
+	margin-top: 64px;
+}
+
+.btn_act:hover {
+	background: #C2000E
+}
+.btn_act:active {
+
+	box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.35), inset 3px 3px 3px rgba(0, 0, 0, 0.35);
+
+}
+
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.menu_item a {
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+
+}
+
+.menu_item a:hover {
+	border-bottom: 2px solid #fff;
+
+}
+.menu_item {
+	margin-right: 60px;
+}
+
+.number {
+	margin-left: auto;
+	color: #fff;
+}
+
+.offer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	max-width: 1261px;
+	margin: 0 auto;
+
+}
+
+.offer_pic {
+
+}
+
+.year {
+	background: url('../img/year.png');
+	width: 90px;
+	height: 18px;
+
+}
+
+.title_year {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	align-items: top;
+}
+.offer_content {
+	margin-top: 128px;
+	margin-right: 62px;
+	margin-left: 259px;
+
+}
+
+.offer_title {
+	font-size: 40px;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	color: #A8F000;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.offer_under_title {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.mause {
+	margin-left: 100px;
+
+}
+
+.social1 {
+	margin-left: 1178px;
+}
+
+.social2 {
+	margin-left: 30px;
+}
+
+
+.foot {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	width: 1240px;
+	align-items: center;
+	margin-top: 80px;
+}
+

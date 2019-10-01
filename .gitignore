@@ -1,0 +1,9 @@
+*.pyc
+*~
+/name/__pycache__
+/name/myvenv
+/name/db.sqlite3
+/name/static
+/name/.DS_Store
+/venv
+/.idea
